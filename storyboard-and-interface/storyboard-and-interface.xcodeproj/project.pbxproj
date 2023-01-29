@@ -13,27 +13,7 @@
 		5D71572D298654810081CF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D71572B298654810081CF88 /* Main.storyboard */; };
 		5D71572F298654820081CF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D71572E298654820081CF88 /* Assets.xcassets */; };
 		5D715732298654820081CF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D715730298654820081CF88 /* LaunchScreen.storyboard */; };
-		5D71573D298654820081CF88 /* storyboard_and_interfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71573C298654820081CF88 /* storyboard_and_interfaceTests.swift */; };
-		5D715747298654820081CF88 /* storyboard_and_interfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D715746298654820081CF88 /* storyboard_and_interfaceUITests.swift */; };
-		5D715749298654820081CF88 /* storyboard_and_interfaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D715748298654820081CF88 /* storyboard_and_interfaceUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5D715739298654820081CF88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D71571A298654810081CF88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D715721298654810081CF88;
-			remoteInfo = "storyboard-and-interface";
-		};
-		5D715743298654820081CF88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D71571A298654810081CF88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D715721298654810081CF88;
-			remoteInfo = "storyboard-and-interface";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5D715722298654810081CF88 /* storyboard-and-interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "storyboard-and-interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +24,10 @@
 		5D71572E298654820081CF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D715731298654820081CF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D715733298654820081CF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D715738298654820081CF88 /* storyboard-and-interfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "storyboard-and-interfaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D71573C298654820081CF88 /* storyboard_and_interfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboard_and_interfaceTests.swift; sourceTree = "<group>"; };
-		5D715742298654820081CF88 /* storyboard-and-interfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "storyboard-and-interfaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D715746298654820081CF88 /* storyboard_and_interfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboard_and_interfaceUITests.swift; sourceTree = "<group>"; };
-		5D715748298654820081CF88 /* storyboard_and_interfaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboard_and_interfaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5D71571F298654810081CF88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D715735298654820081CF88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D71573F298654820081CF88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				5D715724298654810081CF88 /* storyboard-and-interface */,
-				5D71573B298654820081CF88 /* storyboard-and-interfaceTests */,
-				5D715745298654820081CF88 /* storyboard-and-interfaceUITests */,
 				5D715723298654810081CF88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				5D715722298654810081CF88 /* storyboard-and-interface.app */,
-				5D715738298654820081CF88 /* storyboard-and-interfaceTests.xctest */,
-				5D715742298654820081CF88 /* storyboard-and-interfaceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,23 +65,6 @@
 				5D715733298654820081CF88 /* Info.plist */,
 			);
 			path = "storyboard-and-interface";
-			sourceTree = "<group>";
-		};
-		5D71573B298654820081CF88 /* storyboard-and-interfaceTests */ = {
-			isa = PBXGroup;
-			children = (
-				5D71573C298654820081CF88 /* storyboard_and_interfaceTests.swift */,
-			);
-			path = "storyboard-and-interfaceTests";
-			sourceTree = "<group>";
-		};
-		5D715745298654820081CF88 /* storyboard-and-interfaceUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5D715746298654820081CF88 /* storyboard_and_interfaceUITests.swift */,
-				5D715748298654820081CF88 /* storyboard_and_interfaceUITestsLaunchTests.swift */,
-			);
-			path = "storyboard-and-interfaceUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +87,6 @@
 			productReference = 5D715722298654810081CF88 /* storyboard-and-interface.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D715737298654820081CF88 /* storyboard-and-interfaceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D71574F298654820081CF88 /* Build configuration list for PBXNativeTarget "storyboard-and-interfaceTests" */;
-			buildPhases = (
-				5D715734298654820081CF88 /* Sources */,
-				5D715735298654820081CF88 /* Frameworks */,
-				5D715736298654820081CF88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D71573A298654820081CF88 /* PBXTargetDependency */,
-			);
-			name = "storyboard-and-interfaceTests";
-			productName = "storyboard-and-interfaceTests";
-			productReference = 5D715738298654820081CF88 /* storyboard-and-interfaceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5D715741298654820081CF88 /* storyboard-and-interfaceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D715752298654820081CF88 /* Build configuration list for PBXNativeTarget "storyboard-and-interfaceUITests" */;
-			buildPhases = (
-				5D71573E298654820081CF88 /* Sources */,
-				5D71573F298654820081CF88 /* Frameworks */,
-				5D715740298654820081CF88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D715744298654820081CF88 /* PBXTargetDependency */,
-			);
-			name = "storyboard-and-interfaceUITests";
-			productName = "storyboard-and-interfaceUITests";
-			productReference = 5D715742298654820081CF88 /* storyboard-and-interfaceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					5D715721298654810081CF88 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					5D715737298654820081CF88 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 5D715721298654810081CF88;
-					};
-					5D715741298654820081CF88 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 5D715721298654810081CF88;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				5D715721298654810081CF88 /* storyboard-and-interface */,
-				5D715737298654820081CF88 /* storyboard-and-interfaceTests */,
-				5D715741298654820081CF88 /* storyboard-and-interfaceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +128,6 @@
 				5D715732298654820081CF88 /* LaunchScreen.storyboard in Resources */,
 				5D71572F298654820081CF88 /* Assets.xcassets in Resources */,
 				5D71572D298654810081CF88 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D715736298654820081CF88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D715740298654820081CF88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D715734298654820081CF88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D71573D298654820081CF88 /* storyboard_and_interfaceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D71573E298654820081CF88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D715747298654820081CF88 /* storyboard_and_interfaceUITests.swift in Sources */,
-				5D715749298654820081CF88 /* storyboard_and_interfaceUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5D71573A298654820081CF88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D715721298654810081CF88 /* storyboard-and-interface */;
-			targetProxy = 5D715739298654820081CF88 /* PBXContainerItemProxy */;
-		};
-		5D715744298654820081CF88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D715721298654810081CF88 /* storyboard-and-interface */;
-			targetProxy = 5D715743298654820081CF88 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D71572B298654810081CF88 /* Main.storyboard */ = {
@@ -451,6 +301,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.storyboard-and-interface";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,81 +331,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.storyboard-and-interface";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5D715750298654820081CF88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.storyboard-and-interfaceTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storyboard-and-interface.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storyboard-and-interface";
-			};
-			name = Debug;
-		};
-		5D715751298654820081CF88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.storyboard-and-interfaceTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storyboard-and-interface.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storyboard-and-interface";
-			};
-			name = Release;
-		};
-		5D715753298654820081CF88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.storyboard-and-interfaceUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "storyboard-and-interface";
-			};
-			name = Debug;
-		};
-		5D715754298654820081CF88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.storyboard-and-interfaceUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "storyboard-and-interface";
 			};
 			name = Release;
 		};
@@ -573,24 +357,6 @@
 			buildConfigurations = (
 				5D71574D298654820081CF88 /* Debug */,
 				5D71574E298654820081CF88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D71574F298654820081CF88 /* Build configuration list for PBXNativeTarget "storyboard-and-interfaceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D715750298654820081CF88 /* Debug */,
-				5D715751298654820081CF88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D715752298654820081CF88 /* Build configuration list for PBXNativeTarget "storyboard-and-interfaceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D715753298654820081CF88 /* Debug */,
-				5D715754298654820081CF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
